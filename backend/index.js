@@ -10,7 +10,11 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(cors());
 app.use(express.json());
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> f878432 (updates)
 // MySQL Database Connection
 const connection = mysql.createConnection({
   host: process.env.DB_HOST,
