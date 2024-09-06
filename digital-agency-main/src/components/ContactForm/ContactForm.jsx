@@ -81,7 +81,7 @@ const ContactForm = () => {
               onChange={handleChange}
               className="w-full border-gray-300 dark:border-gray-700 p-3 rounded-md focus:ring-primary focus:border-primary dark:bg-gray-800 dark:text-white"
               rows="4"
-              required
+              
             ></textarea>
           </div>
           <button
