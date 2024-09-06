@@ -1,0 +1,53 @@
+/* Contact Form Container */
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form fields */
+  .contact-form-container input,
+  .contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Remove black outline on focus */
+  .contact-form-container input:focus,
+  .contact-form-container textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: none; /* Remove box shadow */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Label styling */
+  .contact-form-container label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Submit button styling */
+  .primary-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit button hover effect */
+  .primary-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
